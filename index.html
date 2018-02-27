@@ -6,20 +6,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>GiffyPower</title>
+	<link rel="stylesheet" href="assets/bootstrap.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 </head>
 
 <body>
+	<div class="container">
+    <div class="jumbotron">
+        <h1>GifTastic</h1>
+    </div>
 
-	<div id="animalButton"></div>
+    <div class="row">
+        <div class="col-md-12" id="display-buttons"></div>
+    </div>
 
-	<form id="animal-form"></form>
-	<label>Add an animal</label>
-	<input id="animal-input" type="text">
-	<input id="addAnimal" type="submit" value="submit">
+    <div class="row">
+        <div class="col-md-12">
+            <form id="form">
+                <label for="user-input">Add Buttons Here!</label><br>
+                <input type="text" id="user-input">
+                <input id="submitPress" type="submit" value="Submit" class="btn btn-default">
+            </form>
+        </div>
+    </div>
 
-	<div id="animals"></div>
+    <div class="row">
+        <div class="col-md-12" id="display-images"></div>
+    </div>
 
+</div>    
 	<script src="assets/js/script.js"></script>
 </body>
 
